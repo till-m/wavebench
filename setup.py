@@ -7,6 +7,6 @@ setup(name='wavebench',
       author='Tianlin Liu',
       author_email='t.liu@unibas.ch',
       license='MIT',
-      packages=find_packages(include=['wavebench', 'wavebench.*']),
+      packages=find_packages(),
       zip_safe=False)
 
